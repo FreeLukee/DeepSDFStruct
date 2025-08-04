@@ -64,7 +64,7 @@ lattice_struct(torch.tensor([[0, 0, 0], [0, 1, 0]], dtype=torch.float32))
 GitHub: [https://github.com/mkofler96/DeepSDFStruct](https://github.com/mkofler96/DeepSDFStruct)
 
 ---
-
+test
 ## 📄 License
 This project is licensed under the **Apache License 2.0**.  
 See the [LICENSE](./LICENSE) file or visit [http://www.apache.org/licenses/LICENSE-2.0](http://www.apache.org/licenses/LICENSE-2.0) for more information.

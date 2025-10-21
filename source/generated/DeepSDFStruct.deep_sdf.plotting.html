@@ -8,7 +8,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>DeepSDFStruct.torch_spline &#8212; DeepSDFStruct 0.1.dev1+g0c7abba0b documentation</title>
+    <title>DeepSDFStruct.deep_sdf.plotting &#8212; DeepSDFStruct 0.1.dev1+g0c7abba0b documentation</title>
   
   
   
@@ -41,11 +41,11 @@
     <script src="../../_static/documentation_options.js?v=f9f4ab4a"></script>
     <script src="../../_static/doctools.js?v=9bcbadda"></script>
     <script src="../../_static/sphinx_highlight.js?v=dc90522c"></script>
-    <script>DOCUMENTATION_OPTIONS.pagename = 'source/generated/DeepSDFStruct.torch_spline';</script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'source/generated/DeepSDFStruct.deep_sdf.plotting';</script>
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
-    <link rel="next" title="DeepSDFStruct.utils" href="DeepSDFStruct.utils.html" />
-    <link rel="prev" title="DeepSDFStruct.splinepy_unitcells.snappy_3d" href="DeepSDFStruct.splinepy_unitcells.snappy_3d.html" />
+    <link rel="next" title="DeepSDFStruct.deep_sdf.reconstruction" href="DeepSDFStruct.deep_sdf.reconstruction.html" />
+    <link rel="prev" title="DeepSDFStruct.deep_sdf.networks.hierarchical_deep_sdf_decoder" href="DeepSDFStruct.deep_sdf.networks.hierarchical_deep_sdf_decoder.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
   <meta name="docsearch:version" content="" />
@@ -239,7 +239,7 @@
   <div class="bd-toc-item navbar-nav"><ul class="current nav bd-sidenav">
 <li class="toctree-l1 current active has-children"><a class="reference internal" href="DeepSDFStruct.html">DeepSDFStruct</a><details open="open"><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul class="current">
 <li class="toctree-l2"><a class="reference internal" href="DeepSDFStruct.SDF.html">DeepSDFStruct.SDF</a></li>
-<li class="toctree-l2 has-children"><a class="reference internal" href="DeepSDFStruct.deep_sdf.html">DeepSDFStruct.deep_sdf</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2 current active has-children"><a class="reference internal" href="DeepSDFStruct.deep_sdf.html">DeepSDFStruct.deep_sdf</a><details open="open"><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul class="current">
 <li class="toctree-l3"><a class="reference internal" href="DeepSDFStruct.deep_sdf.data.html">DeepSDFStruct.deep_sdf.data</a></li>
 <li class="toctree-l3 has-children"><a class="reference internal" href="DeepSDFStruct.deep_sdf.metrics.html">DeepSDFStruct.deep_sdf.metrics</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
 <li class="toctree-l4"><a class="reference internal" href="DeepSDFStruct.deep_sdf.metrics.mesh_to_analytical.html">DeepSDFStruct.deep_sdf.metrics.mesh_to_analytical</a></li>
@@ -252,7 +252,7 @@
 <li class="toctree-l4"><a class="reference internal" href="DeepSDFStruct.deep_sdf.networks.hierarchical_deep_sdf_decoder.html">DeepSDFStruct.deep_sdf.networks.hierarchical_deep_sdf_decoder</a></li>
 </ul>
 </details></li>
-<li class="toctree-l3"><a class="reference internal" href="DeepSDFStruct.deep_sdf.plotting.html">DeepSDFStruct.deep_sdf.plotting</a></li>
+<li class="toctree-l3 current active"><a class="current reference internal" href="#">DeepSDFStruct.deep_sdf.plotting</a></li>
 <li class="toctree-l3"><a class="reference internal" href="DeepSDFStruct.deep_sdf.reconstruction.html">DeepSDFStruct.deep_sdf.reconstruction</a></li>
 <li class="toctree-l3"><a class="reference internal" href="DeepSDFStruct.deep_sdf.training.html">DeepSDFStruct.deep_sdf.training</a></li>
 <li class="toctree-l3"><a class="reference internal" href="DeepSDFStruct.deep_sdf.workspace.html">DeepSDFStruct.deep_sdf.workspace</a></li>
@@ -279,7 +279,7 @@
 <li class="toctree-l3"><a class="reference internal" href="DeepSDFStruct.splinepy_unitcells.snappy_3d.html">DeepSDFStruct.splinepy_unitcells.snappy_3d</a></li>
 </ul>
 </details></li>
-<li class="toctree-l2 current active"><a class="current reference internal" href="#">DeepSDFStruct.torch_spline</a></li>
+<li class="toctree-l2"><a class="reference internal" href="DeepSDFStruct.torch_spline.html">DeepSDFStruct.torch_spline</a></li>
 <li class="toctree-l2"><a class="reference internal" href="DeepSDFStruct.utils.html">DeepSDFStruct.utils</a></li>
 </ul>
 </details></li>
@@ -329,7 +329,10 @@
     
     <li class="breadcrumb-item"><a href="DeepSDFStruct.html" class="nav-link">DeepSDFStruct</a></li>
     
-    <li class="breadcrumb-item active" aria-current="page"><span class="ellipsis">DeepSDFStruct.torch_spline</span></li>
+    
+    <li class="breadcrumb-item"><a href="DeepSDFStruct.deep_sdf.html" class="nav-link">DeepSDFStruct.deep_sdf</a></li>
+    
+    <li class="breadcrumb-item active" aria-current="page"><span class="ellipsis">DeepSDFStruct.deep_sdf.plotting</span></li>
   </ul>
 </nav>
 </div>
@@ -346,139 +349,37 @@
 <div id="searchbox"></div>
                 <article class="bd-article">
                   
-  <section id="module-DeepSDFStruct.torch_spline">
-<span id="deepsdfstruct-torch-spline"></span><h1>DeepSDFStruct.torch_spline<a class="headerlink" href="#module-DeepSDFStruct.torch_spline" title="Link to this heading">#</a></h1>
+  <section id="module-DeepSDFStruct.deep_sdf.plotting">
+<span id="deepsdfstruct-deep-sdf-plotting"></span><h1>DeepSDFStruct.deep_sdf.plotting<a class="headerlink" href="#module-DeepSDFStruct.deep_sdf.plotting" title="Link to this heading">#</a></h1>
 <p class="rubric">Functions</p>
 <div class="pst-scrollable-table-container"><table class="autosummary longtable table">
 <tbody>
-<tr class="row-odd"><td><p><a class="reference internal" href="#DeepSDFStruct.torch_spline.bspline_basis" title="DeepSDFStruct.torch_spline.bspline_basis"><code class="xref py py-obj docutils literal notranslate"><span class="pre">bspline_basis</span></code></a>(t, p, queries)</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="#DeepSDFStruct.deep_sdf.plotting.extract_paths" title="DeepSDFStruct.deep_sdf.plotting.extract_paths"><code class="xref py py-obj docutils literal notranslate"><span class="pre">extract_paths</span></code></a>(data[, current_path])</p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="#DeepSDFStruct.torch_spline.generate_bbox_spline" title="DeepSDFStruct.torch_spline.generate_bbox_spline"><code class="xref py py-obj docutils literal notranslate"><span class="pre">generate_bbox_spline</span></code></a>(bounds)</p></td>
-<td><p>Takes bounding box and generates a spline box.</p></td>
-</tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="#DeepSDFStruct.torch_spline.torch_spline_1D" title="DeepSDFStruct.torch_spline.torch_spline_1D"><code class="xref py py-obj docutils literal notranslate"><span class="pre">torch_spline_1D</span></code></a>(knot_vectors, ...)</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="#DeepSDFStruct.deep_sdf.plotting.plot_logs" title="DeepSDFStruct.deep_sdf.plotting.plot_logs"><code class="xref py py-obj docutils literal notranslate"><span class="pre">plot_logs</span></code></a>(experiment_directory[, show_lr, ...])</p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="#DeepSDFStruct.torch_spline.torch_spline_3D" title="DeepSDFStruct.torch_spline.torch_spline_3D"><code class="xref py py-obj docutils literal notranslate"><span class="pre">torch_spline_3D</span></code></a>(knot_vectors, ...)</p></td>
-<td><p>Evaluate a 3D B-spline volume at query points.</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="#DeepSDFStruct.deep_sdf.plotting.running_mean" title="DeepSDFStruct.deep_sdf.plotting.running_mean"><code class="xref py py-obj docutils literal notranslate"><span class="pre">running_mean</span></code></a>(x, N)</p></td>
+<td><p></p></td>
 </tr>
 </tbody>
 </table>
 </div>
-<p class="rubric">Classes</p>
-<div class="pst-scrollable-table-container"><table class="autosummary longtable table">
-<tbody>
-<tr class="row-odd"><td><p><a class="reference internal" href="#DeepSDFStruct.torch_spline.TorchSpline" title="DeepSDFStruct.torch_spline.TorchSpline"><code class="xref py py-obj docutils literal notranslate"><span class="pre">TorchSpline</span></code></a>(spline[, device, dtype])</p></td>
-<td><p>V2: uses custom torch spline as spline backend</p></td>
-</tr>
-</tbody>
-</table>
-</div>
-<dl class="py class">
-<dt class="sig sig-object py" id="DeepSDFStruct.torch_spline.TorchSpline">
-<em class="property"><span class="k"><span class="pre">class</span></span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">DeepSDFStruct.torch_spline.</span></span><span class="sig-name descname"><span class="pre">TorchSpline</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">spline</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">device</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'cpu'</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">dtype</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">torch.float32</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#DeepSDFStruct.torch_spline.TorchSpline" title="Link to this definition">#</a></dt>
-<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">torch.nn.modules.module.Module</span></code></p>
-<p>V2: uses custom torch spline as spline backend</p>
-<dl class="field-list simple">
-<dt class="field-odd">Parameters<span class="colon">:</span></dt>
-<dd class="field-odd"><p><strong>spline</strong> (<em>splinepy.bspline.BSpline</em>)</p>
-</dd>
-</dl>
-<dl class="py method">
-<dt class="sig sig-object py" id="DeepSDFStruct.torch_spline.TorchSpline.forward">
-<span class="sig-name descname"><span class="pre">forward</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">queries</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#DeepSDFStruct.torch_spline.TorchSpline.forward" title="Link to this definition">#</a></dt>
-<dd><p>Define the computation performed at every call.</p>
-<p>Should be overridden by all subclasses.</p>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<p>Although the recipe for forward pass needs to be defined within
-this function, one should call the <code class="xref py py-class docutils literal notranslate"><span class="pre">Module</span></code> instance afterwards
-instead of this since the former takes care of running the
-registered hooks while the latter silently ignores them.</p>
-</div>
-<dl class="field-list simple">
-<dt class="field-odd">Parameters<span class="colon">:</span></dt>
-<dd class="field-odd"><p><strong>queries</strong> (<em>torch.Tensor</em>)</p>
-</dd>
-</dl>
-</dd></dl>
-
-<dl class="py attribute">
-<dt class="sig sig-object py" id="DeepSDFStruct.torch_spline.TorchSpline.spline">
-<span class="sig-name descname"><span class="pre">spline</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><code class="xref py py-class docutils literal notranslate"><span class="pre">BSpline</span></code></em><a class="headerlink" href="#DeepSDFStruct.torch_spline.TorchSpline.spline" title="Link to this definition">#</a></dt>
+<dl class="py function">
+<dt class="sig sig-object py" id="DeepSDFStruct.deep_sdf.plotting.extract_paths">
+<span class="sig-prename descclassname"><span class="pre">DeepSDFStruct.deep_sdf.plotting.</span></span><span class="sig-name descname"><span class="pre">extract_paths</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">data</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">current_path</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">''</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#DeepSDFStruct.deep_sdf.plotting.extract_paths" title="Link to this definition">#</a></dt>
 <dd></dd></dl>
 
-</dd></dl>
+<dl class="py function">
+<dt class="sig sig-object py" id="DeepSDFStruct.deep_sdf.plotting.plot_logs">
+<span class="sig-prename descclassname"><span class="pre">DeepSDFStruct.deep_sdf.plotting.</span></span><span class="sig-name descname"><span class="pre">plot_logs</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">experiment_directory</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">show_lr</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">ax</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">filename</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#DeepSDFStruct.deep_sdf.plotting.plot_logs" title="Link to this definition">#</a></dt>
+<dd></dd></dl>
 
 <dl class="py function">
-<dt class="sig sig-object py" id="DeepSDFStruct.torch_spline.bspline_basis">
-<span class="sig-prename descclassname"><span class="pre">DeepSDFStruct.torch_spline.</span></span><span class="sig-name descname"><span class="pre">bspline_basis</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">t</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">p</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">queries</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#DeepSDFStruct.torch_spline.bspline_basis" title="Link to this definition">#</a></dt>
-<dd><dl class="field-list simple">
-<dt class="field-odd">Parameters<span class="colon">:</span></dt>
-<dd class="field-odd"><p><strong>queries</strong> (<em>torch._VariableFunctionsClass.tensor</em>)</p>
-</dd>
-</dl>
-</dd></dl>
-
-<dl class="py function">
-<dt class="sig sig-object py" id="DeepSDFStruct.torch_spline.generate_bbox_spline">
-<span class="sig-prename descclassname"><span class="pre">DeepSDFStruct.torch_spline.</span></span><span class="sig-name descname"><span class="pre">generate_bbox_spline</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">bounds</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#DeepSDFStruct.torch_spline.generate_bbox_spline" title="Link to this definition">#</a></dt>
-<dd><p>Takes bounding box and generates a spline box.</p>
-<dl class="field-list simple">
-<dt class="field-odd">Parameters<span class="colon">:</span></dt>
-<dd class="field-odd"><p><strong>bounds</strong> (<em>(</em><em>2</em><em>, </em><em>3</em><em>) </em><em>array-like</em>) – <dl class="simple">
-<dt>[[xmin, ymin, zmin],</dt><dd><p>[xmax, ymax, zmax]]</p>
-</dd>
-</dl>
-</p>
-</dd>
-<dt class="field-even">Returns<span class="colon">:</span></dt>
-<dd class="field-even"><p><strong>spline</strong> – BSpline representing the bounding box.</p>
-</dd>
-<dt class="field-odd">Return type<span class="colon">:</span></dt>
-<dd class="field-odd"><p>splinepy.BSpline</p>
-</dd>
-</dl>
-</dd></dl>
-
-<dl class="py function">
-<dt class="sig sig-object py" id="DeepSDFStruct.torch_spline.torch_spline_1D">
-<span class="sig-prename descclassname"><span class="pre">DeepSDFStruct.torch_spline.</span></span><span class="sig-name descname"><span class="pre">torch_spline_1D</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">knot_vectors</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">control_points</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">degrees</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">queries</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#DeepSDFStruct.torch_spline.torch_spline_1D" title="Link to this definition">#</a></dt>
-<dd><dl class="field-list simple">
-<dt class="field-odd">Parameters<span class="colon">:</span></dt>
-<dd class="field-odd"><p><strong>queries</strong> (<em>torch._VariableFunctionsClass.tensor</em>)</p>
-</dd>
-</dl>
-</dd></dl>
-
-<dl class="py function">
-<dt class="sig sig-object py" id="DeepSDFStruct.torch_spline.torch_spline_3D">
-<span class="sig-prename descclassname"><span class="pre">DeepSDFStruct.torch_spline.</span></span><span class="sig-name descname"><span class="pre">torch_spline_3D</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">knot_vectors</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">control_points</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">degrees</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">queries</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#DeepSDFStruct.torch_spline.torch_spline_3D" title="Link to this definition">#</a></dt>
-<dd><p>Evaluate a 3D B-spline volume at query points.</p>
-<dl class="field-list simple">
-<dt class="field-odd">Parameters<span class="colon">:</span></dt>
-<dd class="field-odd"><ul class="simple">
-<li><p><strong>tx</strong> – knot vectors for x, y, z</p></li>
-<li><p><strong>ty</strong> – knot vectors for x, y, z</p></li>
-<li><p><strong>tz</strong> – knot vectors for x, y, z</p></li>
-<li><p><strong>px</strong> – degrees</p></li>
-<li><p><strong>py</strong> – degrees</p></li>
-<li><p><strong>pz</strong> – degrees</p></li>
-<li><p><strong>cp</strong> – control points, shape (nx, ny, nz, d)</p></li>
-<li><p><strong>qx</strong> – query coordinates, shape (N,)</p></li>
-<li><p><strong>qy</strong> – query coordinates, shape (N,)</p></li>
-<li><p><strong>qz</strong> – query coordinates, shape (N,)</p></li>
-</ul>
-</dd>
-<dt class="field-even">Returns<span class="colon">:</span></dt>
-<dd class="field-even"><p>evaluated spline, shape (N, d)</p>
-</dd>
-<dt class="field-odd">Return type<span class="colon">:</span></dt>
-<dd class="field-odd"><p>y</p>
-</dd>
-</dl>
-</dd></dl>
+<dt class="sig sig-object py" id="DeepSDFStruct.deep_sdf.plotting.running_mean">
+<span class="sig-prename descclassname"><span class="pre">DeepSDFStruct.deep_sdf.plotting.</span></span><span class="sig-name descname"><span class="pre">running_mean</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">x</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">N</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#DeepSDFStruct.deep_sdf.plotting.running_mean" title="Link to this definition">#</a></dt>
+<dd></dd></dl>
 
 </section>
 
@@ -493,20 +394,20 @@ registered hooks while the latter silently ignores them.</p>
                   
 <div class="prev-next-area">
     <a class="left-prev"
-       href="DeepSDFStruct.splinepy_unitcells.snappy_3d.html"
+       href="DeepSDFStruct.deep_sdf.networks.hierarchical_deep_sdf_decoder.html"
        title="previous page">
       <i class="fa-solid fa-angle-left"></i>
       <div class="prev-next-info">
         <p class="prev-next-subtitle">previous</p>
-        <p class="prev-next-title">DeepSDFStruct.splinepy_unitcells.snappy_3d</p>
+        <p class="prev-next-title">DeepSDFStruct.deep_sdf.networks.hierarchical_deep_sdf_decoder</p>
       </div>
     </a>
     <a class="right-next"
-       href="DeepSDFStruct.utils.html"
+       href="DeepSDFStruct.deep_sdf.reconstruction.html"
        title="next page">
       <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">DeepSDFStruct.utils</p>
+        <p class="prev-next-title">DeepSDFStruct.deep_sdf.reconstruction</p>
       </div>
       <i class="fa-solid fa-angle-right"></i>
     </a>
@@ -529,15 +430,9 @@ registered hooks while the latter silently ignores them.</p>
   </div>
   <nav class="bd-toc-nav page-toc" aria-labelledby="pst-page-navigation-heading-2">
     <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#DeepSDFStruct.torch_spline.TorchSpline"><code class="docutils literal notranslate"><span class="pre">TorchSpline</span></code></a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#DeepSDFStruct.torch_spline.TorchSpline.forward"><code class="docutils literal notranslate"><span class="pre">TorchSpline.forward()</span></code></a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#DeepSDFStruct.torch_spline.TorchSpline.spline"><code class="docutils literal notranslate"><span class="pre">TorchSpline.spline</span></code></a></li>
-</ul>
-</li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#DeepSDFStruct.torch_spline.bspline_basis"><code class="docutils literal notranslate"><span class="pre">bspline_basis()</span></code></a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#DeepSDFStruct.torch_spline.generate_bbox_spline"><code class="docutils literal notranslate"><span class="pre">generate_bbox_spline()</span></code></a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#DeepSDFStruct.torch_spline.torch_spline_1D"><code class="docutils literal notranslate"><span class="pre">torch_spline_1D()</span></code></a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#DeepSDFStruct.torch_spline.torch_spline_3D"><code class="docutils literal notranslate"><span class="pre">torch_spline_3D()</span></code></a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#DeepSDFStruct.deep_sdf.plotting.extract_paths"><code class="docutils literal notranslate"><span class="pre">extract_paths()</span></code></a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#DeepSDFStruct.deep_sdf.plotting.plot_logs"><code class="docutils literal notranslate"><span class="pre">plot_logs()</span></code></a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#DeepSDFStruct.deep_sdf.plotting.running_mean"><code class="docutils literal notranslate"><span class="pre">running_mean()</span></code></a></li>
 </ul>
   </nav></div>
 
@@ -545,7 +440,7 @@ registered hooks while the latter silently ignores them.</p>
   <div role="note" aria-label="source link">
     <h3>This Page</h3>
     <ul class="this-page-menu">
-      <li><a href="../../_sources/source/generated/DeepSDFStruct.torch_spline.rst.txt"
+      <li><a href="../../_sources/source/generated/DeepSDFStruct.deep_sdf.plotting.rst.txt"
             rel="nofollow">Show Source</a></li>
     </ul>
    </div></div>

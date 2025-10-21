@@ -1,0 +1,21 @@
+DeepSDFStruct.deep\_sdf
+=======================
+
+.. automodule:: DeepSDFStruct.deep_sdf
+
+   
+.. rubric:: Modules
+
+.. autosummary::
+   :toctree:
+   :recursive:
+
+   create_screenshots_from_plyfiles
+   data
+   metrics
+   models
+   networks
+   plotting
+   reconstruction
+   training
+   workspace

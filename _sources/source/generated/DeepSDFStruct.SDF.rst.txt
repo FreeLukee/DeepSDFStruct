@@ -1,0 +1,30 @@
+DeepSDFStruct.SDF
+=================
+
+.. automodule:: DeepSDFStruct.SDF
+
+   
+   .. rubric:: Functions
+
+   .. autosummary::
+   
+      get_equidistant_grid_sample
+      normalize_mesh_to_unit_cube
+      point_segment_distance
+      union
+   
+   .. rubric:: Classes
+
+   .. autosummary::
+   
+      BoxSDF
+      CapBorderDict
+      CapType
+      NegatedCallable
+      SDFBase
+      SDFfromDeepSDF
+      SDFfromLineMesh
+      SDFfromMesh
+      SummedSDF
+      TransformedSDF
+   
